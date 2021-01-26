@@ -1,0 +1,3 @@
+600	/Users/adams/Documents/UCSC/ams129/carletonadam-ams129-fall2020
+416	/Users/adams/Documents/UCSC/ams129/carletonadam-ams129-fall2020/.git
+200	/Users/adams/Documents/UCSC/ams129/carletonadam-ams129-fall2020/.git/objects

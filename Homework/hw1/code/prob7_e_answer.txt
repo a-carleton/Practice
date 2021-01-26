@@ -1,0 +1,3 @@
+grep [C-D] roster_sort_lastName_noDuplicate.txt | wc -l
+
+#output: 9

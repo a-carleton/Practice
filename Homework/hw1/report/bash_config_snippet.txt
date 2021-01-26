@@ -1,0 +1,33 @@
+# Setting PATH for Python 3.8
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"
+
+#functions
+parse_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+
+pwd_up() {
+pwd $(printf "%0.0s../" $(seq 1 $1));
+}
+
+#Exports
+export PATH
+export PS1="λ \[\e[32m\]\W \[\e[34m\]\$(parse_git_branch)\[\e[00m\] "
+export EDITOR="emacs -nw"
+export IDL_DIR="/usr/local/itt/idl"
+export PATH="/usr/local/Cellar/colordiff/1.0.13/bin:/usr/local/bin:$PATH"
+export PATH="/usr/local/Cellar/valgrind/3.8.1/bin:$PATH"
+export MY_PATH="/Users/adams/Documents/UCSC/ams129"
+
+#Alias
+alias la='ls -lA'
+alias ll='ls -l'
+alias ls='ls -G'
+alias reload='source ~/.bash_profile'
+alias text='open -a TextEdit'
+alias pre='open -a Preview'
+alias grepp='grep -in'
+alias sshy='ssh -Y'
+alias wcl='wc -l'
+alias pwd..='pwd_up'

@@ -1,0 +1,13 @@
+sort -r roster.txt | grep [G,S]
+
+Seidl Christa cseidl@ucsc.edu
+Sanchez Enrique enrsanch@ucsc.edu
+Salak Dylan gsalak@ucsc.edu
+Riedel Sean sriedel@ucsc.edu
+Riedel Sean sriedel@ucsc.edu
+Kapoor Shishir skapoor3@ucsc.edu
+Kapoor Shishir skapoor3@ucsc.edu
+Gregorio Florencia fgregori@ucsc.edu
+Gregorio Florencia fgregori@ucsc.edu
+Garcia Adrian agarc140@ucsc.edu
+Gan Ruoqing rgan2@ucsc.edu
